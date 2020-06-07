@@ -70,7 +70,6 @@ Try upload a few file types to the server, what common extension seems to be blo
 3)
 what extension is allowed?
 ![Burp Reuslts](https://github.com/tigercub-co/TryHackMe/blob/master/Vulnversity/images/Burp_Output.png)
-Format: ![Alt Text](https://github.com/tigercub-co/TryHackMe/blob/master/Vulnversity/images/Burp_Output.png)
 `.phtml`
 
 5)
