@@ -1,13 +1,13 @@
-#Blue
+# Blue
 
-##Room
+## Room
 This a room on Try Hack Me called Blue designed by `DarkStar7471` 
 
 The Web address for this room is
 https://tryhackme.com/room/blue
 
 
-##Synopsis.
+## Synopsis.
 Deploy & hack into a Windows machine, leveraging common misconfigurations issues.
 
 ## Contents
