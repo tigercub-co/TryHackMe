@@ -41,11 +41,11 @@ using this information we can then use netcat to connect to the pop3 server to s
 `nc 10.10.195.86 110`
 Once logged in we find there are two emails
 
-![email result](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/Email_Login.PNG)
+![email result](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/Email%20Login.PNG)
 
 retrieving email 1
 
-![mail message1](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/Email 1.PNG)
+![mail message1](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/Email%201.PNG)
 
 Within this email it shows that there is a temporary SSH Password S1ck3nBluff+secureshell
 
@@ -56,10 +56,13 @@ Looking at the second email it seems nothing important although there is a user-
 So using this information we can try and ssh into the box 
 `ssh baksteen@$IP` with the password S1ck3nBluff+secureshell
 This information allows us to login
+
 ![SSH Login](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/SSH_Login.PNG)
+
 we can then use the command `id` to find what groups baksteen belongs to and we find out that he belongs to two different groups users and baksteen so using this information we want to enumarate the box.
 `find / -group users -type f 2>/dev/null`
 looking at the results there is one file that looks interesting /opt/cube/cube.sh
+
 ![Enumeration Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/enumeration.PNG)
 
 When using vi on the cube.sh file we find it is the information for the ssh login page as such we could use this to get a reverse shell on the box as this is run by root.
