@@ -1,4 +1,4 @@
-# RP_NMAP
+# RP: NMAP
 
 ## Room
 This a room on Try Hack Me called Blue designed by `DarkStar7471` 
