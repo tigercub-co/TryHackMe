@@ -3,10 +3,10 @@
 'export IP=10.10.195.86'
 
 ## Hack into the FowSniff organization.
-First stage is to do an initial nmap Scan of the IP address given using the nmpa command `nmap -sC -sV -oN nmap/initial $IP` [Initial NMAP Scan Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/nmap/initial)
-Once the results from this scan are given which shows that port 80 is open we can do some web enumeration will running a full port scan of the box `nmap -p- -sC -sV -oN nmap/Full $IP`[Full NMAP Scan Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/nmap/FULL)
+First stage is to do an initial nmap Scan of the IP address given using the nmpa command `nmap -sC -sV -oN nmap/initial $IP` [Initial NMAP Scan Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/nmap/initial).
+Once the results from this scan are given which shows that port 80 is open we can do some web enumeration will running a full port scan of the box `nmap -p- -sC -sV -oN nmap/Full $IP` [Full NMAP Scan Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/nmap/FULL).
 
-While that is running we can use gobuster to do a full website `gobuster dir -u http://$IP:80 -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt > gobuster/sitescan` [GoBuster Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/gobuster/sitescan)
+While that is running we can use gobuster to do a full website `gobuster dir -u http://$IP:80 -w /usr/share/wordlist/dirbuster/directory-list-2.3-medium.txt > gobuster/sitescan` [GoBuster Results](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/gobuster/sitescan).
 We can also check out the website and see if that holds any clues manually.
 
 ![Fowsniff webpage](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF/Images/Fowsniff_webpage.PNG)
