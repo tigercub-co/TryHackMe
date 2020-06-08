@@ -10,6 +10,7 @@ Write up's from try hack me rooms
 |Fowsniff CTF|berzerk0|[Fowsniff CTF Room](https://tryhackme.com/room/ctf)|[Writeup](https://github.com/tigercub-co/TryHackMe/blob/master/Fowsniff_CTF)
 |knockknock|TopHatSecurity|[knockknock Room](https://tryhackme.com/room/knockknock)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/KnockKnock)
 |Learn Linux|Paradox|[Learn Linux Room](https://tryhackme.com/room/zthlinux)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/Learn_Linux)
+|OhSINT|TryHackMe|[OhSINT Room](https://tryhackme.com/room/ohsint)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/OhSINT)
 |RP: Metasploit|DarkStar7471|[RP:Metasploit Room](https://tryhackme.com/room/rpmetasploit)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/RP_Metasploit)
 |RP: NMAP|DarkStar7471|[RP:NMAP Room](https://tryhackme.com/room/rpnmap)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/RP_NMAP)
 |Vulnversity|tryhackme|[vulnversity Room](https://tryhackme.com/room/vulnversity)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/Vulnversity)
