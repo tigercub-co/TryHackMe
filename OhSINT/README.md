@@ -46,7 +46,7 @@ We can then look at this project and within it shows OwoodFlints email
 ## Blog Page
 As all that was on the github page has been found after research we can move to look at OwoodFlints Blog Page
 
-![OwoodFlints web page](https://github.com/tigercub-co/TryHackMe/tree/master/OhSINT/images/Blog.JPG) 
+![OwoodFlints web page](https://github.com/tigercub-co/TryHackMe/blob/master/OhSINT/images/Blog.JPG) 
 
 *Answer OwoodFlints Holiday was to New York*
 But looking at the questions we know that we still have to find OwoodFlints password so one of the ways we could do this is to look at the source code of the page
