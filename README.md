@@ -11,6 +11,7 @@ Write up's from try hack me rooms
 |knockknock|TopHatSecurity|[knockknock Room](https://tryhackme.com/room/knockknock)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/KnockKnock)
 |Learn Linux|Paradox|[Learn Linux Room](https://tryhackme.com/room/zthlinux)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/Learn_Linux)
 |OhSINT|TryHackMe|[OhSINT Room](https://tryhackme.com/room/ohsint)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/OhSINT)
+|Pickle Rick|TryHackMe|[Pickle Rick Room](https://tryhackme.com/room/picklerick)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/Pickle_Rick)
 |RP: Metasploit|DarkStar7471|[RP:Metasploit Room](https://tryhackme.com/room/rpmetasploit)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/RP_Metasploit)
 |RP: NMAP|DarkStar7471|[RP:NMAP Room](https://tryhackme.com/room/rpnmap)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/RP_NMAP)
 |Vulnversity|tryhackme|[vulnversity Room](https://tryhackme.com/room/vulnversity)|[Writeup](https://github.com/tigercub-co/TryHackMe/tree/master/Vulnversity)
