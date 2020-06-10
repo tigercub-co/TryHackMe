@@ -1,0 +1,7 @@
+fail
+picklerick
+portal
+rickandmorty
+rick
+morty
+ingredient
